@@ -18,7 +18,7 @@ import java.net.URL;
 public class Post {
     Post(String mensaje) throws MalformedURLException, IOException {
      //   URL url = new URL("http://localhost:3000/datos");
-URL url = new URL("https://things.ubidots.com/api/v1.6/devices/prueba/?token=BBFF-NHtF9NFSUhmUyXpFH5RTB8KxtCoeDM");
+URL url = new URL("https://things.ubidots.com/api/v1.6/devices/[nodeName]/?token=[ubidotsToken]");
 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 conn.setDoOutput(true);
 conn.setRequestMethod("POST");

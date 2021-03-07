@@ -69,13 +69,13 @@
                 <?php
                 if (strcmp($nodo, $var4) === 0) {
 
-                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=BBFF-BBe7SrsWQwKIGktUUhnBWYVQjXdcbb";
+                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=[ubidotsToken]";
                 } else if (strcmp($nodo, $var5) === 0) {
 
-                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=BBFF-75ukAWgtVl1qJPeM59ZtJOw0DzMD0d";
+                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=[ubidotsToken]";
                 } else if (strcmp($nodo, $var6) === 0) {
 
-                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=BBFF-CpZvEzj78OE7JkOnYBY3UgKa0CjmLM";
+                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=[ubidotsToken]";
                 }
 
                
@@ -108,15 +108,15 @@
                 <?php
                 if(strcmp($nodo,$var4)===0){
 
-                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var2/values?token=BBFF-BBe7SrsWQwKIGktUUhnBWYVQjXdcbb";
+                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var2/values?token=[ubidotsToken]";
 
                 }else if(strcmp($nodo,$var5)===0){
 
-                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var2/values?token=BBFF-75ukAWgtVl1qJPeM59ZtJOw0DzMD0d";
+                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var2/values?token=[ubidotsToken]";
 
                 }else if(strcmp($nodo,$var6)===0){
 
-                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var2/values?token=BBFF-CpZvEzj78OE7JkOnYBY3UgKa0CjmLM";
+                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var2/values?token=[ubidotsToken]";
 
                 }              
                 $curl = curl_init($url_rest);
@@ -149,15 +149,15 @@
                 <?php
                if(strcmp($nodo,$var4)===0){
 
-                $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var3/values?token=BBFF-BBe7SrsWQwKIGktUUhnBWYVQjXdcbb";
+                $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var3/values?token=[ubidotsToken]";
 
             }else if(strcmp($nodo,$var5)===0){
 
-                $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var3/values?token=BBFF-75ukAWgtVl1qJPeM59ZtJOw0DzMD0d";
+                $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var3/values?token=[ubidotsToken]";
 
             }else if(strcmp($nodo,$var6)===0){
 
-                $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var3/values?token=BBFF-CpZvEzj78OE7JkOnYBY3UgKa0CjmLM";
+                $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var3/values?token=[ubidotsToken]";
 
             }              
                 $curl = curl_init($url_rest);
@@ -192,15 +192,15 @@
                 <?php
                if(strcmp($nodo,$var4)===0){
 
-                $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=BBFF-BBe7SrsWQwKIGktUUhnBWYVQjXdcbb";
+                $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=[ubidotsToken]";
 
             }else if(strcmp($nodo,$var5)===0){
 
-                $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=BBFF-75ukAWgtVl1qJPeM59ZtJOw0DzMD0d";
+                $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=[ubidotsToken];
 
             }else if(strcmp($nodo,$var6)===0){
 
-                $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=BBFF-CpZvEzj78OE7JkOnYBY3UgKa0CjmLM";
+                $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=[ubidotsToken]";
 
             }              
                 $curl = curl_init($url_rest);
@@ -245,15 +245,15 @@
                 <?php
                 if(strcmp($nodo,$var4)===0){
 
-                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var2/values?token=BBFF-BBe7SrsWQwKIGktUUhnBWYVQjXdcbb";
+                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var2/values?token=[ubidotsToken]";
 
                 }else if(strcmp($nodo,$var5)===0){
 
-                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var2/values?token=BBFF-75ukAWgtVl1qJPeM59ZtJOw0DzMD0d";
+                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var2/values?token=[ubidotsToken]";
 
                 }else if(strcmp($nodo,$var6)===0){
 
-                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var2/values?token=BBFF-CpZvEzj78OE7JkOnYBY3UgKa0CjmLM";
+                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var2/values?token=[ubidotsToken]";
 
                 }              
                 $curl = curl_init($url_rest);
@@ -296,15 +296,15 @@
                 <?php
                 if(strcmp($nodo,$var4)===0){
 
-                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var3/values?token=BBFF-BBe7SrsWQwKIGktUUhnBWYVQjXdcbb";
+                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var3/values?token=[ubidotsToken]";
 
                 }else if(strcmp($nodo,$var5)===0){
 
-                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var3/values?token=BBFF-75ukAWgtVl1qJPeM59ZtJOw0DzMD0d";
+                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var3/values?token=[ubidotsToken]";
 
                 }else if(strcmp($nodo,$var6)===0){
 
-                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var3/values?token=BBFF-CpZvEzj78OE7JkOnYBY3UgKa0CjmLM";
+                    $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var3/values?token=[ubidotsToken]";
 
                 }              
                 $curl = curl_init($url_rest);

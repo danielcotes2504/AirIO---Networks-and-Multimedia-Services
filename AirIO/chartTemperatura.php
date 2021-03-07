@@ -55,15 +55,15 @@ var variable='<?php echo $var;?>';
 var token;
 if(nodo=="prueba")
 {
-  token="BBFF-BBe7SrsWQwKIGktUUhnBWYVQjXdcbb";
+  token="[ubidotsToken]";
 }
 if(nodo=="prueba2")
 {
-  token="BBFF-75ukAWgtVl1qJPeM59ZtJOw0DzMD0d";
+  token="[ubidotsToken]";
 }
 if(nodo=="prueba3")
 {
-  token="BBFF-CpZvEzj78OE7JkOnYBY3UgKa0CjmLM";
+  token="[ubidotsToken]";
 }
       var dataPoints = [];
 
@@ -141,13 +141,13 @@ if(nodo=="prueba3")
         <?php
                         if (strcmp($nodo, $var4) === 0) {
 
-                          $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=BBFF-BBe7SrsWQwKIGktUUhnBWYVQjXdcbb";
+                          $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=[ubidotsToken]";
                       } else if (strcmp($nodo, $var5) === 0) {
       
-                          $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=BBFF-75ukAWgtVl1qJPeM59ZtJOw0DzMD0d";
+                          $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=[ubidotsToken]";
                       } else if (strcmp($nodo, $var6) === 0) {
       
-                          $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=BBFF-CpZvEzj78OE7JkOnYBY3UgKa0CjmLM";
+                          $url_rest = "https://things.ubidots.com/api/v1.6/devices/$nodo/$var/values?token=[ubidotsToken]";
                       }
       
         $curl = curl_init($url_rest);
