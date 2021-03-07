@@ -8,3 +8,4 @@ JavaProject--------Is the project that contains the files to transfer data via s
                    (you can define what protocol will use to transfer data: MQTT or REST)
 Taller14V2.pdsprj--Is the Proteus file that contains the Arduino Simultion and Sensors.
 ```
+The Proteus Simulation will send data to Serial Port, for that you can use a Port Emulator, then the data will arrive to Java, where it will be sent to ubidots and the PHP page will recover the data from ubidots to show the variables on the dashboards and tables. It's necessary that you change the Tokens in the PHP page and in the javacode, if you want, there is another options to IoT platforms like thinger.io, for that is the same steps, only do you need the Post link (you can test it with postman).
