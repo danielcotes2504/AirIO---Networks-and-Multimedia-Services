@@ -17,10 +17,24 @@ The Proteus Simulation will send data to Serial Port, for that you can use a Por
 
 # Libraries, enviroments and programming languages used
 ```
+# Languages
 PHP 7.2.34
 JDK 1.8.0_2441
+JavaScript ECMAScript 2018
+
+#Development Enviroments and other tools
 Proteus 8.5
 Netbeans 8.2
+Virtual Serial Port Emulator 1.0.5.443
+
+#Libraries
+Bootstrap 4.5.3
+Chart.js  2.7.2
+jQuery 1.11.3
+PanamaHitek_Arduino 3.0.0: https://github.com/PanamaHitek/PanamaHitek_Arduino/releases/tag/3.0.0
+
+
+
 ```
 # Testing video
 https://user-images.githubusercontent.com/36736949/110251798-34825500-7f50-11eb-8324-1bf3c37e71fe.mp4
