@@ -21,6 +21,8 @@ The Proteus Simulation will send data to Serial Port, for that you can use a Por
 PHP 7.2.34
 JDK 1.8.0_2441
 JavaScript ECMAScript 2018
+HTML5
+CSS3
 
 #Development Enviroments and other tools
 Proteus 8.5
