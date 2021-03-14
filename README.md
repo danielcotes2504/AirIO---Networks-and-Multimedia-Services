@@ -23,6 +23,7 @@ JDK 1.8.0_2441
 JavaScript ECMAScript 2018
 HTML5
 CSS3
+C++ 11 (By Arduino)
 
 #Development Enviroments and other tools
 Proteus 8.5
